@@ -1,0 +1,14 @@
+# Results Repository
+
+This repository contains the most up-to-date software survey results for the
+M.Eng. state of practice in scientific computing software project at McMaster
+University.
+
+Contributors to this repository include:
+
+* Spencer Smith
+* Jacques Carette
+* Vasudha Kapil
+* Adam Lazzarato
+* Yue Sun
+* Zheng Zeng
