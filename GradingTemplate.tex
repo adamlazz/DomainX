@@ -45,7 +45,8 @@ reviewer should note what problems were caused.
 
   Are there installation instructions? (\{yes, no\})\\
   Are the installation instructions linear? (\{yes, no, n/a\})\\
-  Is there something in place to automate the installation? (\{yes$^*$, no\})\\
+  Is there something in place to automate the installation (makefile, script,
+  installer, etc)? (\{yes$^*$, no\})\\
   Is there a specified way to validate the installation, such as a test suite? (\{yes$^*$, no\})\\
   How many steps were involved in the installation? (number)\\
   How many software packages need to be installed before or during installation?
@@ -77,7 +78,9 @@ reviewer should note what problems were caused.
   \textbf{Surface Robustness}\\
   \midrule
 
-  Does the software handle garbage input reasonably? (\{yes, no$^*$\})\\
+  Does the software handle unexpected/unanticipated input (like data of the wrong type, empty
+  input, missing files or links) reasonably? (a reasonable response can include
+  an appropriate error message.) (\{yes, no$^*$\})\\
   For any plain text input files, if all new lines are replaced with new lines
   and carriage returns, will the software handle this gracefully? (\{yes,
   no$^*$, n/a\})\\
